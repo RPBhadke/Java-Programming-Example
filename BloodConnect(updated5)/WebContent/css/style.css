@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+*{
+                    margin:0;
+                    padding:0;
+                    list-style:none;
+                    text-decoration: none;
+}
+.header{
+                    width:100%;
+                    height: 40px;
+                    display: block;
+                    background-color:hsl(0, 87%, 76%);
+                    text-align:center;
+                    font-size: 16px;
+                    padding: 10px;
+                    font-family: cursive;
+}
+.form{
+                    border: 4px outset red;
+                    background-color:lightblue;
+                    width:380;
+                    height:380px;
+                    display: block;
+                    position:absolute;
+                    left:500px;
+                    top: 150px;
+}
+.innertext{
+                    display: block;
+                    position:absolute;
+                    left:60px;
+                    top: 40px;  
+                    font-size: 10 px;     
+}
+#textarea{
+                    border-radius: 4px;
+                    background-color:rgb(247, 250, 236) ;
+                    float:right;
+}
+.requirements{
+                    display:block;
+                    position:absolute;
+                    right:5px;
+                    top:90px;
+                    font-style: italic;
+                    width:400;
+                    height:500;
+                    font-size: 15px;
+                    word-spacing: 10px;
+                    line-height: 30px;
+
+}
+input[type="radio"]{
+                    position:absolute;
+                    left: 110px;
+                    cursor:pointer;
+                    
+}
+label[for="male"],label[for="female"],label[for="others"]{
+                    margin-bottom: 10px;
+                    display:inline-block;
+                    padding-left: 130px;
+                    background-position:0 -32px ;
+                    line-height: 24px;
+                    cursor:pointer;
+}
+#area{
+                    position:absolute;
+                    left:110px;
+                    border-radius: 4px;
+                    background-color:rgb(247, 250, 236) ;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>BloodConnect</display-name>
+  <servlet>
+		<display-name>DonarLogin</display-name>
+		<servlet-name>DonarLogin</servlet-name>
+		<servlet-class>com.bloodconnect.controller.DonarLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<display-name>DonarRegister</display-name>
+		<servlet-name>DonarRegister</servlet-name>
+		<servlet-class>com.bloodconnect.controller.DonarRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DonarLogin</servlet-name>
+		<url-pattern>/DonarLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DonarRegister</servlet-name>
+		<url-pattern>/DonarRegister</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Main.jsp</welcome-file>
+	</welcome-file-list>
+	 <servlet>
+		<display-name>RecipientLogin</display-name>
+		<servlet-name>RecipientLogin</servlet-name>
+		<servlet-class>com.bloodconnect.controller.RecipientLogin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<display-name>RecipientRegister</display-name>
+		<servlet-name>RecipientRegister</servlet-name>
+		<servlet-class>com.bloodconnect.controller.DonarRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecipientLogin</servlet-name>
+		<url-pattern>/RecipientLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RecipientRegister</servlet-name>
+		<url-pattern>/RecipientRegister</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>Main.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
